@@ -1,0 +1,212 @@
+proxies:
+- name: Tj1
+  server: quiz.int.vidio.com
+  port: 443
+  type: trojan
+  password: 82d72480-c6ba-11ef-bce5-1239d0255272
+  skip-cert-verify: true
+  sni: sg2.6n6.net
+  network: ws
+  ws-opts:
+    path: /howdy
+    headers:
+      Host: sg2.6n6.net
+  udp: true
+
+- name: Vlestb
+  server: quiz.int.vidio.com
+  port: 443
+  type: vless
+  uuid: 1edde446-d7b6-4163-960c-d05d2998ee54
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: do2.stbserver.xyz
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: do2.stbserver.xyz
+  udp: true
+- name: Vl1
+  server: quiz.int.vidio.com
+  port: 443
+  type: vless
+  uuid: 5dc2702d-8100-409f-b1ce-68a3117c1695
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: mmx.vpnoir9r.us.kg
+  network: ws
+  ws-opts:
+    path: /sg29
+    headers:
+      Host: mmx.vpnoir9r.us.kg
+  udp: true
+- name: Vl2
+  server: quiz.int.vidio.com
+  port: 443
+  type: vless
+  uuid: e0c8bfa6-9fef-4bb3-a120-590b56b9a1d2
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: mmx.vpnoir9r.us.kg
+  network: ws
+  ws-opts:
+    path: /sg20
+    headers:
+      Host: mmx.vpnoir9r.us.kg
+  udp: true
+- name: Vl3
+  server: quiz.int.vidio.com
+  port: 443
+  type: vless
+  uuid: 860c1d11-f911-46e2-87c2-659b347c4ce3
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: mmx.vpnoir9r.us.kg
+  network: ws
+  ws-opts:
+    path: /sg8
+    headers:
+      Host: mmx.vpnoir9r.us.kg
+  udp: true
+- name: Vl4
+  server: quiz.int.vidio.com
+  port: 443
+  type: vless
+  uuid: 94fae7b8-f272-4078-bb8b-0bddab0ccb20
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: mmx.vpnoir9r.us.kg
+  network: ws
+  ws-opts:
+    path: /id2
+    headers:
+      Host: mmx.vpnoir9r.us.kg
+  udp: true
+
+- name: Vl5
+  server: quiz.int.vidio.com
+  port: 443
+  type: vless
+  uuid: 70df545b-ce58-4652-863c-151065dcfb35
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: do2.stbserver.xyz
+  network: ws
+  ws-opts:
+    path: /id3
+    headers:
+      Host: do2.stbserver.xyz
+  udp: true
+- name: Vl6
+  server: quiz.int.vidio.com
+  port: 443
+  type: vless
+  uuid: 571e3773-6cb7-43c6-bcca-c87ccbc69f0b
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: mmx.vpnoir9r.us.kg
+  network: ws
+  ws-opts:
+    path: /id4
+    headers:
+      Host: mmx.vpnoir9r.us.kg
+  udp: true
+- name: Vl7
+  server: quiz.int.vidio.com
+  port: 443
+  type: vless
+  uuid: 09649627-211a-47f2-bd61-b9f36b849cb9
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: mmx.vpnoir9r.us.kg
+  network: ws
+  ws-opts:
+    path: /id10
+    headers:
+      Host: mmx.vpnoir9r.us.kg
+  udp: true
+- name: Vl8
+  server: quiz.int.vidio.com
+  port: 443
+  type: vless
+  uuid: 46c4d358-3ee6-4cbd-9bb7-a081f06a7410
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: mmx.vpnoir9r.us.kg
+  network: ws
+  ws-opts:
+    path: /id15
+    headers:
+      Host: mmx.vpnoir9r.us.kg
+  udp: true
+- name: Vl9
+  server: quiz.int.vidio.com
+  port: 443
+  type: vless
+  uuid: 431d89e3-f1f1-4b32-a935-3ef30fcd2750
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: mmx.vpnoir9r.us.kg
+  network: ws
+  ws-opts:
+    path: /id16
+    headers:
+      Host: mmx.vpnoir9r.us.kg
+  udp: true
+
+- name: Vl10
+  server: quiz.int.vidio.com
+  port: 443
+  type: vless
+  uuid: a60125fa-32e0-4e3c-bec2-863617f919f8
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: do2.stbserver.xyz
+  network: ws
+  ws-opts:
+    path: /id18
+    headers:
+      Host: do2.stbserver.xyz
+  udp: true
+- name: Vl11
+  server: quiz.int.vidio.com
+  port: 443
+  type: vless
+  uuid: 9c094836-2e67-4c89-a867-b2aad84e099e
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: mmx.vpnoir9r.us.kg
+  network: ws
+  ws-opts:
+    path: /id19
+    headers:
+      Host: mmx.vpnoir9r.us.kg
+  udp: true
+- name: Vl12
+  server: quiz.int.vidio.com
+  port: 443
+  type: vless
+  uuid: dc462153-a006-4234-8fb5-9ef1d66701a8
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: mmx.vpnoir9r.us.kg
+  network: ws
+  ws-opts:
+    path: /sg1
+    headers:
+      Host: mmx.vpnoir9r.us.kg
+  udp: true
